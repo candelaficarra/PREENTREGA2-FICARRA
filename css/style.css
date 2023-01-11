@@ -22,7 +22,7 @@ header{
     display:flex;
     min-height: 70px;
     justify-content: space-between;
-    background-color: rgb(250, 168, 183);
+    background-color: lightgreen;
     padding: 10px;
     height: 70px;
     align-items: center;
@@ -37,16 +37,11 @@ nav ul li{
     display:flex;
     min-height: 70px;
     justify-content: space-between;
-    background-color:  rgb(250, 168, 183);
+    background-color:  lightgreen;
     padding: 10px;
     align-items: center;
 }
-.logo img {
-    height: 100px;
-    margin-right: 100px;
-    align-items: center;
-    
-}
+
 
 
 .logo2 img {
