@@ -24,8 +24,14 @@ header{
     justify-content: space-between;
     background-color: rgb(250, 168, 183);
     padding: 10px;
+    height: 70px;
     align-items: center;
 
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 32px ;
 }
 .logo{
     display:flex;
@@ -39,7 +45,7 @@ header{
     height: 100px;
     margin-right: 100px;
     align-items: center;
-
+    
 }
 
 
