@@ -198,7 +198,7 @@ nav a:hover{
 
 }
 form{
-    background-color: lightpink;
+    background-color: rgb(237, 221, 224);
     width: 450px;
     margin: auto;
     padding: 10px 20px;
@@ -243,20 +243,20 @@ textarea{
     position: relative;
 }
 .galeria-img{
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     object-fit: cover;
 
 }
-.galeria-item:nth-child(4){
+/* .galeria-item:nth-child(4){
     grid-column-start: span 2;
 }
 .galeria-item:nth-child(8){
     grid-column-start: span 2;
-}
+} 
 .galeria-item:nth-child(7){
     grid-column-start: span 2;
-}
+}  */
 .galeria-titulo{
     position: absolute;
     bottom: 0;
@@ -265,6 +265,7 @@ textarea{
     width: 100%;
     margin: 0;
     padding: 10px;
+    font-size: 20px;
 }
 .plantas1 img:hover{
     transform: scale(1.5);
@@ -280,10 +281,9 @@ textarea{
 nav{
     padding: 5px 0px ;
 }
-    .titulo p{
-        display: none;
-    }
-    
+.titulo p{
+    display: none;
+}
     .titulo h1 {
         font-family: 'Roboto', sans-serif;
         width: 50px;
@@ -299,38 +299,79 @@ nav{
         background-color: rgb(250, 168, 183);
     }
     .logo2 img {
-        background-color:  rgb(250, 168, 183);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 100%;
-        width: 100px;
-        height: 100px;
+    background-color:  rgb(250, 168, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
 }
-
 .galeria-titulo{
     position: absolute;
     bottom: 0;
     color: rgb(0, 0, 0);
     background: linear-gradient(rgba white  black);
-    width: 90%;
+    width: 80%;
     margin: 0;
     padding: 2px;
+    font-size: 10px;
 }
 form{
     width: 100%;
 }
+.fondo img{
+    width: 100%;
+    height: 500px;
+    opacity: 0.80;
+    background-size:none;
+
+}
+.fondo{
+    height: 500px;
+}
+.titulo1{
+    font-size: 20px;
+    color:black;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+
+}
+.titulo2{
+    font-size: 15px;
+    color:black;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    text-align: center;
+}
+footer{
+    font-size: 15px;
+    width: 100%;
+}
+.pie-pagina .grupo1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+}
+.pie-pagina .grupo1 .box figure img{
+    display: none;
+}
+
 
 }
 @media(max-width:768px){
-        header{
-            flex-direction: column;
-        }
-        nav{
-            padding: 10px 0px ;
-        }
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px ;
+    }
     .logo{
-        background-color:  rgb(250, 168, 183);
+    background-color:  rgb(250, 168, 183);
     }
     .logo2 img {
         background-color:  rgb(250, 168, 183);
